@@ -1,6 +1,6 @@
 body {
-    margin:0;
-    padding:0;
+    margin:auto;
+    padding:auto;
     font-size:16px;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -8,7 +8,6 @@ body {
 main {
     height:100vh;
     width:100vw;
-    margin:auto;
 }
 
 nav {
@@ -33,16 +32,22 @@ h1 {
     font-size:5em;
     margin:20vh 25vw 20vh 25vw;
     height:30vh;
+    font-weight:100;
 }
 
 section {
     background-color:#f2f3e8;
 }
 
+
 article {
-    width:33vw;
-    padding:15px;
-    margin-top:35px
+    width:30vw;
+    height:100vh;
+    margin-top:35px;
+    background-color:#fff;
+}
+article img {
+    width:30vw;
 }
 article a{
     text-decoration:none;
@@ -51,4 +56,34 @@ article a{
 
 article a:hover {
      text-decoration:underline;
+}
+
+body > main > section > article:first-of-type{
+    position:absolute;
+    left:2vh;
+    
+}
+body > main > section > article:nth-child(3){
+    position:absolute;
+    left:35vw;
+}
+body > main > section > article:nth-child(4){
+    position:absolute;
+    left:68vw;
+}
+
+body > main > section > article:nth-child(5){
+    position:absolute;
+    left:2vh;
+    top:180vh;
+}
+body > main > section > article:nth-child(6){
+    position:absolute;
+    left:35vh;
+    top:180vh;
+}
+body > main > section > article:last-of-type{
+    position:absolute;
+    left:68vh;
+    top:180vh;
 }
