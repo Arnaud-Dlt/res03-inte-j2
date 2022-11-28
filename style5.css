@@ -1,7 +1,6 @@
 body {
+    width:100vw;
     margin:auto;
-    padding:auto;
-    font-size:16px;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -14,15 +13,24 @@ nav {
     text-align:right;
     margin:30px;
 }
+
+nav img {
+    position:relative;
+    right:85vw;
+    top:6vh;
+}
+
 nav li {
     text-align:right;
     display:inline;
     padding:15px;
 }
+
 nav a {
     text-decoration:none;
     color:#000000;
 }
+
 nav a:hover {
     color:grey;
 }
@@ -36,19 +44,22 @@ h1 {
 }
 
 section {
-    background-color:#f2f3e8;
+    background-color:grey;
+    height:100vh;
 }
 
 
 article {
-    width:30vw;
+    width:25vw;
     height:100vh;
-    margin-top:35px;
+    margin-top:20px;
     background-color:#fff;
 }
+
 article img {
-    width:30vw;
+    width:25vw;
 }
+
 article a{
     text-decoration:none;
     color:#000;
@@ -60,30 +71,31 @@ article a:hover {
 
 body > main > section > article:first-of-type{
     position:absolute;
-    left:2vh;
-    
+    margin-top:100vh;
+    margin-left:2vw;
+}
+body > main > section > article:nth-child(2){
+    position:absolute;
+    margin-left:33vw;
+    margin-left:2vw;
 }
 body > main > section > article:nth-child(3){
     position:absolute;
-    left:35vw;
-}
-body > main > section > article:nth-child(4){
-    position:absolute;
-    left:68vw;
+    margin-left:66vw;
 }
 
+body > main > section > article:nth-child(4){
+    position:absolute;
+    margin-top:100vh;
+    margin-left:2vw;
+}
 body > main > section > article:nth-child(5){
     position:absolute;
-    left:2vh;
-    top:180vh;
-}
-body > main > section > article:nth-child(6){
-    position:absolute;
-    left:35vh;
-    top:180vh;
+    margin-left:33vw;
+    margin-top:100vh;
 }
 body > main > section > article:last-of-type{
     position:absolute;
-    left:68vh;
-    top:180vh;
+    margin-left:66vw;
+    margin-top:100vh;
 }
