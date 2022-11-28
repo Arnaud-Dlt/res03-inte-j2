@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+    height:100vh;
+    width:100vw;
+    margin:auto;
+}
+
+nav {
+    text-align:right;
+    margin:30px;
+}
+nav li {
+    text-align:right;
+    display:inline;
+    padding:15px;
+}
+nav a {
+    text-decoration:none;
+    color:#000000;
+}
+nav a:hover {
+    color:grey;
+}
+
+h1 {
+    text-align:left;
+    font-size:5em;
+    margin:20vh 25vw 20vh 25vw;
+    height:30vh;
+}
+
+section {
+    background-color:#f2f3e8;
+}
+
+article {
+    width:33vw;
+    padding:15px;
+    margin-top:35px
+}
+article a{
+    text-decoration:none;
+    color:#000;
+}
+
+article a:hover {
+     text-decoration:underline;
+}
