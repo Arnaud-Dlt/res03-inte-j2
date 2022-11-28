@@ -1,0 +1,97 @@
+
+body {
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color:blue;
+    height:15vh;
+}
+
+main {
+    background-color:green;
+    height:80vh;
+}
+
+
+main > section:first-of-type {
+    background-color:yellow;
+    height:9vw;
+    width:17vw;
+    position :absolute;
+    margin-left:5vw;
+    margin-top:5vh;
+    
+}
+main > section:nth-child(2) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:27vw;
+    margin-top:5vh;
+}
+main > section:nth-child(3) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:50vw;
+    margin-top:5vh;
+}
+main > section:nth-child(4) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:73vw;
+    margin-top:5vh;
+}
+main > section:nth-child(5) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:16vw;
+    margin-top:30vh;
+}
+main > section:nth-child(6) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:39vw;
+    margin-top:30vh;
+}
+main > section:nth-child(7) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:62vw;
+    margin-top:30vh;
+}
+main > section:nth-child(8) {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:28vw;
+    margin-top:55vh;
+}
+main > section:last-child {
+    background-color:yellow;
+    height:9vw;
+    width:18vw;
+    position :absolute;
+    margin-left:50vw;
+    margin-top:55vh;
+}
+
+
+footer {
+    background-color:red;
+    height:20vh;
+}

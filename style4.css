@@ -1,0 +1,40 @@
+
+header h1{
+    text-align:center;
+}
+
+
+body > main > article:first-of-type {
+    width:59vw;
+    height:35vh;
+    position:absolute;
+}
+
+body > main > article:nth-child(2) {
+    width:39vw;
+    height:35vh;
+    position:absolute;
+    margin-left:60vw;
+}
+
+body > main > article:nth-child(3) {
+    width:32vw;
+    height:35vh;
+    position:absolute;
+    margin-top:40vh;
+}
+
+body > main > article:nth-child(4) {
+    width:32vw;
+    height:35vh;
+    position:absolute;
+    margin-top:40vh;
+    margin-left:34vw;
+}
+body > main > article:last-of-type {
+    width:32vw;
+    height:35vh;
+    position:absolute;
+    margin-top:40vh;
+    margin-left:68vw;
+}
