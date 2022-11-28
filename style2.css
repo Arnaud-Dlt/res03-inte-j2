@@ -1,0 +1,47 @@
+
+body {
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color:blue;
+    height:15vh;
+}
+
+main {
+    background-color:green;
+    height:65vh;
+}
+
+main > section {
+    background-color:yellow;
+    height:20vw;
+    width:29vw;
+    position :relative;
+    top:10vh;
+    left:3vw;
+}
+
+main > section:nth-child(2){
+    background-color:yellow;
+    height:20vw;
+    width:29vw;
+    position :relative;
+    top:-34vh;
+    left:35vw;
+}
+main > section:last-of-type{
+    background-color:yellow;
+    height:20vw;
+    width:29vw;
+    position :relative;
+    top:-78.5vh;
+    left:67vw;
+}
+
+footer {
+    background-color:red;
+    height:20vh;
+}
